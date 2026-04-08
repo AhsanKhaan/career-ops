@@ -1,0 +1,505 @@
+# Career-Ops Portal Configuration
+# Copy this file to portals.yml in your career-ops root directory.
+# Customized for: Ahsan Khan - Senior Software Engineer
+# Focus: Saudi Arabia (Riyadh), Remote, Fintech, React/MERN/Laravel
+
+# =============================================================================
+# TITLE FILTERS
+# =============================================================================
+# Keywords to INCLUDE/EXCLUDE when scanning job titles
+
+title_filter:
+  # Positive keywords - jobs matching these will be included
+  positive:
+    - "Software Engineer"
+    - "Senior Software Engineer"
+    - "Staff Software Engineer"
+    - "Full Stack"
+    - "Fullstack"
+    - "Frontend"
+    - "Front End"
+    - "Front-End"
+    - "React"
+    - "React.js"
+    - "ReactJS"
+    - "Node.js"
+    - "Node"
+    - "TypeScript"
+    - "JavaScript"
+    - "MERN"
+    - "Laravel"
+    - "PHP"
+    - "Web Developer"
+    - "Web Engineer"
+    - "Product Engineer"
+
+  # Negative keywords - jobs matching these will be excluded
+  negative:
+    - "Intern"
+    - "Internship"
+    - "Junior"
+    - "Entry Level"
+    - "Graduate"
+    - "Trainee"
+    - "iOS"
+    - "Android"
+    - "Mobile Developer"
+    - "Mobile Engineer"
+    - "Data Scientist"
+    - "Data Engineer"
+    - "ML Engineer"
+    - "Machine Learning"
+    - "DevOps"
+    - "SRE"
+    - "Site Reliability"
+    - "Security Engineer"
+    - "QA Engineer"
+    - "Test Engineer"
+    - "Embedded"
+    - "Hardware"
+    - "Firmware"
+    - "C++"
+    - "Rust"
+    - "Golang"
+    - "Java Developer"
+    - "SAP"
+    - "Salesforce Developer"
+    - "ServiceNow"
+
+# =============================================================================
+# TRACKED COMPANIES
+# =============================================================================
+# Companies to scan directly via their career pages
+# Format: name: careers_url
+
+tracked_companies:
+
+  # ---------------------------------------------------------------------------
+  # SAUDI ARABIA - FINTECH & TECH COMPANIES (Priority)
+  # ---------------------------------------------------------------------------
+  
+  # Fintech Unicorns & Leaders
+  Tamara:
+    url: "https://www.tamara.co/careers"
+    notes: "Saudi fintech unicorn, BNPL leader"
+  
+  Tabby:
+    url: "https://tabby.ai/careers"
+    notes: "BNPL fintech, UAE/Saudi operations"
+  
+  STC Pay:
+    url: "https://www.stcpay.com.sa/careers"
+    notes: "Saudi telecom fintech"
+  
+  Lean Technologies:
+    url: "https://www.leantech.me/careers"
+    notes: "Open banking API platform, Riyadh"
+  
+  Foodics:
+    url: "https://www.foodics.com/careers"
+    notes: "Restaurant tech/fintech, Saudi"
+  
+  HyperPay:
+    url: "https://www.hyperpay.com/careers"
+    notes: "Payment gateway, Riyadh"
+  
+  PayTabs:
+    url: "https://site.paytabs.com/en/careers"
+    notes: "Payment solutions, Saudi/MENA"
+  
+  Geidea:
+    url: "https://www.geidea.net/careers"
+    notes: "Payment technology, Saudi"
+  
+  Hala:
+    url: "https://hala.com/careers"
+    notes: "Fintech payments, Riyadh"
+
+  # Food-Tech & Delivery (Relevant Experience)
+  HungerStation:
+    url: "https://hungerstation.com/careers"
+    notes: "Delivery Hero group, Riyadh - directly relevant"
+  
+  Jahez:
+    url: "https://www.jahez.net/careers"
+    notes: "Food delivery, Saudi"
+  
+  Careem:
+    url: "https://www.careem.com/careers"
+    notes: "Super app, MENA operations"
+
+  # Saudi Tech Giants
+  NEOM:
+    url: "https://www.neom.com/en-us/careers"
+    notes: "Mega project, tech roles"
+  
+  Aramco Digital:
+    url: "https://www.aramcodigital.com/careers"
+    notes: "Digital transformation arm"
+  
+  STC:
+    url: "https://www.stc.com.sa/content/stc/sa/en/career.html"
+    notes: "Saudi telecom giant"
+  
+  Elm:
+    url: "https://www.elm.sa/en/careers"
+    notes: "Digital solutions, government tech"
+
+  # Saudi Banks & Financial Services
+  Al Rajhi Bank:
+    url: "https://www.alrajhibank.com.sa/en/careers"
+    notes: "Largest Islamic bank"
+  
+  SNB:
+    url: "https://www.alahli.com/en-us/careers"
+    notes: "Saudi National Bank"
+  
+  Riyad Bank:
+    url: "https://www.riyadbank.com/en/careers"
+    notes: "Major Saudi bank"
+
+  # ---------------------------------------------------------------------------
+  # UAE / GCC - BACKUP OPTIONS
+  # ---------------------------------------------------------------------------
+  
+  Careem (UAE):
+    url: "https://www.careem.com/en-ae/careers"
+    notes: "Super app, Dubai HQ"
+  
+  Talabat:
+    url: "https://www.talabat.com/careers"
+    notes: "Delivery Hero, Dubai"
+  
+  Network International:
+    url: "https://www.network.ae/en/careers"
+    notes: "Payment solutions, Dubai"
+  
+  Checkout.com:
+    url: "https://www.checkout.com/careers"
+    notes: "Payment processing, Dubai office"
+
+  # ---------------------------------------------------------------------------
+  # REMOTE-FRIENDLY GLOBAL COMPANIES
+  # ---------------------------------------------------------------------------
+
+  # Fintech - Remote
+  Stripe:
+    url: "https://stripe.com/jobs"
+    notes: "Payments infrastructure, remote-friendly"
+  
+  Wise:
+    url: "https://www.wise.com/careers"
+    notes: "International transfers, remote"
+  
+  Revolut:
+    url: "https://www.revolut.com/careers"
+    notes: "Digital banking, remote roles"
+  
+  Plaid:
+    url: "https://plaid.com/careers"
+    notes: "Financial data API"
+  
+  Square:
+    url: "https://careers.squareup.com"
+    notes: "Payment ecosystem"
+  
+  Adyen:
+    url: "https://careers.adyen.com"
+    notes: "Payment platform"
+  
+  Payoneer:
+    url: "https://www.payoneer.com/careers"
+    notes: "Cross-border payments"
+
+  # Tech Platforms - Remote Friendly
+  Vercel:
+    url: "https://vercel.com/careers"
+    notes: "Next.js creators, remote-first"
+  
+  Netlify:
+    url: "https://www.netlify.com/careers"
+    notes: "Web platform, remote"
+  
+  Supabase:
+    url: "https://supabase.com/careers"
+    notes: "Open source Firebase alternative"
+  
+  PlanetScale:
+    url: "https://planetscale.com/careers"
+    notes: "Database platform"
+  
+  Prisma:
+    url: "https://www.prisma.io/careers"
+    notes: "Database toolkit"
+  
+  Railway:
+    url: "https://railway.app/careers"
+    notes: "Deployment platform"
+
+  # React/Frontend Focused
+  Retool:
+    url: "https://retool.com/careers"
+    notes: "Internal tools builder"
+  
+  Webflow:
+    url: "https://webflow.com/careers"
+    notes: "Visual web development"
+  
+  Figma:
+    url: "https://www.figma.com/careers"
+    notes: "Design tools"
+  
+  Linear:
+    url: "https://linear.app/careers"
+    notes: "Project management"
+  
+  Notion:
+    url: "https://www.notion.so/careers"
+    notes: "Productivity platform"
+
+  # E-commerce & SaaS
+  Shopify:
+    url: "https://www.shopify.com/careers"
+    notes: "E-commerce platform, remote"
+  
+  BigCommerce:
+    url: "https://www.bigcommerce.com/careers"
+    notes: "E-commerce SaaS"
+  
+  Salla:
+    url: "https://salla.com/careers"
+    notes: "Arabic e-commerce platform, Saudi"
+
+  # European Companies (Visa Sponsorship)
+  Klarna:
+    url: "https://www.klarna.com/careers"
+    notes: "BNPL, Sweden - visa sponsor"
+  
+  N26:
+    url: "https://n26.com/en/careers"
+    notes: "Digital bank, Germany"
+  
+  Monzo:
+    url: "https://monzo.com/careers"
+    notes: "Digital bank, UK"
+  
+  Starling Bank:
+    url: "https://www.starlingbank.com/careers"
+    notes: "Digital bank, UK"
+  
+  Mollie:
+    url: "https://www.mollie.com/careers"
+    notes: "Payments, Netherlands"
+  
+  Adyen:
+    url: "https://careers.adyen.com"
+    notes: "Payments, Amsterdam"
+
+  # Automation & No-Code
+  n8n:
+    url: "https://n8n.io/careers"
+    notes: "Workflow automation, remote"
+  
+  Zapier:
+    url: "https://zapier.com/jobs"
+    notes: "Automation platform, remote"
+  
+  Make:
+    url: "https://www.make.com/en/careers"
+    notes: "Automation (formerly Integromat)"
+  
+  Airtable:
+    url: "https://www.airtable.com/careers"
+    notes: "No-code database"
+
+# =============================================================================
+# SEARCH QUERIES
+# =============================================================================
+# WebSearch queries for job boards (Ashby, Greenhouse, Lever, LinkedIn, etc.)
+
+search_queries:
+
+  # ---------------------------------------------------------------------------
+  # SAUDI ARABIA SPECIFIC
+  # ---------------------------------------------------------------------------
+  
+  # Ashby - Saudi
+  - "site:jobs.ashbyhq.com React Saudi Arabia"
+  - "site:jobs.ashbyhq.com Software Engineer Riyadh"
+  - "site:jobs.ashbyhq.com Full Stack Saudi"
+  - "site:jobs.ashbyhq.com Frontend Engineer Saudi Arabia"
+  
+  # Greenhouse - Saudi
+  - "site:boards.greenhouse.io React Saudi Arabia"
+  - "site:boards.greenhouse.io Software Engineer Riyadh"
+  - "site:boards.greenhouse.io Full Stack Saudi"
+  - "site:boards.greenhouse.io TypeScript Saudi Arabia"
+  
+  # Lever - Saudi
+  - "site:jobs.lever.co React Saudi Arabia"
+  - "site:jobs.lever.co Software Engineer Riyadh"
+  - "site:jobs.lever.co Frontend Saudi"
+  
+  # LinkedIn - Saudi
+  - "site:linkedin.com/jobs React Developer Saudi Arabia visa sponsorship"
+  - "site:linkedin.com/jobs Software Engineer Riyadh fintech"
+  - "site:linkedin.com/jobs Full Stack Developer Saudi Arabia"
+  - "site:linkedin.com/jobs Frontend Engineer Riyadh"
+  
+  # Wellfound (AngelList) - Saudi
+  - "site:wellfound.com React Saudi Arabia"
+  - "site:wellfound.com Software Engineer Riyadh"
+
+  # ---------------------------------------------------------------------------
+  # REMOTE + VISA SPONSORSHIP
+  # ---------------------------------------------------------------------------
+  
+  # Ashby - Remote
+  - "site:jobs.ashbyhq.com React Remote"
+  - "site:jobs.ashbyhq.com Senior Frontend Remote"
+  - "site:jobs.ashbyhq.com Full Stack Remote TypeScript"
+  - "site:jobs.ashbyhq.com Node.js Remote"
+  
+  # Greenhouse - Remote
+  - "site:boards.greenhouse.io React Remote worldwide"
+  - "site:boards.greenhouse.io Senior Software Engineer Remote"
+  - "site:boards.greenhouse.io Full Stack Remote"
+  - "site:boards.greenhouse.io Frontend Engineer Remote"
+  - "site:boards.greenhouse.io TypeScript Remote"
+  
+  # Lever - Remote
+  - "site:jobs.lever.co React Remote"
+  - "site:jobs.lever.co Full Stack Engineer Remote"
+  - "site:jobs.lever.co Senior Frontend Remote"
+  - "site:jobs.lever.co Node.js Remote"
+  
+  # Wellfound - Remote
+  - "site:wellfound.com React Remote visa sponsorship"
+  - "site:wellfound.com Full Stack Remote"
+  - "site:wellfound.com Frontend Remote fintech"
+  
+  # Remote Job Boards
+  - "site:weworkremotely.com React Developer"
+  - "site:weworkremotely.com Full Stack"
+  - "site:remoteok.com React"
+  - "site:remoteok.com Senior Frontend"
+
+  # ---------------------------------------------------------------------------
+  # FINTECH SPECIFIC
+  # ---------------------------------------------------------------------------
+  
+  - "site:jobs.ashbyhq.com fintech React"
+  - "site:boards.greenhouse.io fintech Software Engineer"
+  - "site:jobs.lever.co fintech Full Stack"
+  - "site:jobs.lever.co payments React"
+  - "site:boards.greenhouse.io payments TypeScript"
+  
+  # ---------------------------------------------------------------------------
+  # EUROPEAN VISA SPONSORS
+  # ---------------------------------------------------------------------------
+  
+  - "site:jobs.ashbyhq.com React Berlin visa sponsorship"
+  - "site:boards.greenhouse.io Software Engineer Amsterdam relocation"
+  - "site:jobs.lever.co Frontend London visa sponsorship"
+  - "site:boards.greenhouse.io Full Stack Germany relocation"
+  - "site:jobs.lever.co React Netherlands"
+
+  # ---------------------------------------------------------------------------
+  # UAE / MIDDLE EAST
+  # ---------------------------------------------------------------------------
+  
+  - "site:boards.greenhouse.io React Dubai"
+  - "site:jobs.lever.co Software Engineer UAE"
+  - "site:jobs.ashbyhq.com Frontend Dubai"
+  - "site:linkedin.com/jobs React Developer Dubai visa sponsorship"
+
+  # ---------------------------------------------------------------------------
+  # TECH STACK SPECIFIC
+  # ---------------------------------------------------------------------------
+  
+  # React/Next.js
+  - "site:jobs.ashbyhq.com Next.js Remote"
+  - "site:boards.greenhouse.io Next.js"
+  - "site:jobs.lever.co React TypeScript"
+  
+  # Node.js/MERN
+  - "site:jobs.ashbyhq.com MERN Stack"
+  - "site:boards.greenhouse.io Node.js React"
+  - "site:jobs.lever.co Express MongoDB"
+  
+  # Laravel/PHP
+  - "site:jobs.ashbyhq.com Laravel Remote"
+  - "site:boards.greenhouse.io PHP Laravel"
+  - "site:jobs.lever.co Laravel"
+
+# =============================================================================
+# SCAN SETTINGS
+# =============================================================================
+
+scan_settings:
+  # How often to scan (in days)
+  scan_interval: 3
+  
+  # Maximum offers to process per scan
+  max_offers_per_scan: 50
+  
+  # Minimum score to auto-generate PDF (out of 5)
+  auto_pdf_threshold: 3.5
+  
+  # Skip offers older than X days
+  max_offer_age_days: 30
+
+# =============================================================================
+# LOCATION PREFERENCES
+# =============================================================================
+
+location_preferences:
+  # Primary targets
+  primary:
+    - "Riyadh, Saudi Arabia"
+    - "Remote"
+    - "Remote - Worldwide"
+    - "Remote - EMEA"
+    - "Remote - Middle East"
+  
+  # Secondary targets  
+  secondary:
+    - "Dubai, UAE"
+    - "Abu Dhabi, UAE"
+    - "Berlin, Germany"
+    - "Amsterdam, Netherlands"
+    - "London, UK"
+  
+  # Keywords that indicate remote-friendly
+  remote_indicators:
+    - "Remote"
+    - "Work from anywhere"
+    - "Distributed"
+    - "Remote-first"
+    - "Fully remote"
+    - "Global"
+    - "Worldwide"
+
+# =============================================================================
+# VISA & SPONSORSHIP
+# =============================================================================
+
+visa_requirements:
+  # Must have one of these
+  required_keywords:
+    - "visa sponsorship"
+    - "relocation"
+    - "relocation assistance"
+    - "work permit"
+    - "sponsorship available"
+    - "open to international"
+    - "global candidates"
+  
+  # Auto-reject if contains
+  reject_keywords:
+    - "no visa sponsorship"
+    - "must be authorized to work"
+    - "US citizens only"
+    - "EU work authorization required"
+    - "local candidates only"
+    - "must have existing right to work"
